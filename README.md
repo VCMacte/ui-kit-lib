@@ -7,9 +7,9 @@
 `isDark?: boolean`  
 `isLight?: boolean`  
 `withBorder?: boolean`  
-`buttonType?: 'button' | 'submit' (default: 'button')`  
-`disabled?: boolean (default: false)`  
-`w100?: boolean (default: false)`
+`buttonType?: 'button' | 'submit'` (default: 'button')  
+`disabled?: boolean` (default: false)  
+`w100?: boolean` (default: false)
 
 **CssLoader** props:  
 `isLoading: boolean`
@@ -37,4 +37,4 @@
 `items: string[]`  
 `selectedItem: string`  
 `onSelect: React.Dispatch<string>`  
-`element: () => React.JSX.Element (SVG icon)`
+`element: () => React.JSX.Element` (SVG icon)
