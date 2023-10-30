@@ -1,0 +1,41 @@
+.numberInput {
+	display: flex;
+}
+
+.numberInput input {
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	border-radius: 0;
+	border: 1px solid var(--gray200);
+	background-color: transparent;
+}
+
+.numberInput input::-webkit-inner-spin-button {
+	display: none;
+}
+
+.numberInput button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: var(--primary600);
+	color: var(--white);
+	font-weight: 700;
+	border: 0;
+	padding: 0;
+}
+
+.numberInput button:first-of-type {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.numberInput button:last-of-type {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}

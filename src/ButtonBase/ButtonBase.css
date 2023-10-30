@@ -1,0 +1,88 @@
+.buttonBase {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 16px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 20px;
+	border-radius: 8px;
+	background-color: transparent;
+	border: 1px solid var(--white);
+	transition: all 0.3s ease;
+}
+
+.buttonBase.w100 {
+	width: 100%;
+}
+
+.buttonBase svg {
+	display: block;
+	width: 20px;
+	height: 20px;
+	stroke: #000;
+	transition: all 0.3s ease;
+}
+
+.buttonBase.withBorder {
+	border: 1px solid var(--gray200);
+}
+
+.buttonBase.dark {
+	background-color: var(--primary600);
+	color: var(--white);
+	border: 1px solid var(--primary600);
+}
+
+.buttonBase.active,
+.buttonBase:hover {
+	color: var(--primary-light600);
+	border: 1px solid var(--primary50);
+	background-color: var(--primary50);
+}
+
+.buttonBase.dark {
+	background-color: var(--primary600);
+	color: var(--white);
+	border: 1px solid var(--primary600);
+}
+
+.buttonBase.light {
+	background-color: var(--primary50);
+	color: var(--primary-light600);
+	border: 1px solid var(--primary50);
+}
+
+.buttonBase.active svg,
+.buttonBase:hover svg {
+	stroke: var(--primary-light600);
+}
+
+.buttonBase.dark svg {
+	stroke: var(--white);
+}
+
+.buttonBase.dark.active,
+.buttonBase.dark:hover {
+	background-color: var(--primary600);
+	color: var(--white);
+	box-shadow: 0 0 15px 0 var(--primary-light600);
+}
+
+.buttonBase.light.active,
+.buttonBase.light:hover {
+	background-color: var(--primary600);
+	color: var(--white);
+	box-shadow: 0 0 15px 0 var(--primary-light600);
+}
+
+.buttonBase.dark.active svg,
+.buttonBase.dark:hover svg {
+	stroke: var(--white);
+}
+
+.buttonBase.active:disabled,
+.buttonBase.dark:disabled,
+.buttonBase.dark.active:disabled {
+	filter: grayscale(1);
+}

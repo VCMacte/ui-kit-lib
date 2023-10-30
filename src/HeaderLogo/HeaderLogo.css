@@ -1,0 +1,18 @@
+.header__logo {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-right: 16px;
+}
+
+.header__logo svg {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.header__logo span {
+	font-size: 18px;
+	line-height: 1;
+	color: var(--primary-light600);
+}
