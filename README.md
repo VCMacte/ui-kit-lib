@@ -26,15 +26,15 @@ onBtnClick?: () => void
 **InputWithLabel** props:  
 labelText: string  
 inputType: string  
-onInputChange: Dispatch`<SetStateAction<string>>`  
+onInputChange: Dispatch<SetStateAction<string>>  
 inputValue: string
 
 **NumberInput** props:  
 count: number  
-setCount: Dispatch`<SetStateAction<number>>`
+setCount: Dispatch<SetStateAction<number>>
 
 **SelectFallList** props:  
 items: string[]  
 selectedItem: string  
-onSelect: React.Dispatch`<string>`  
+onSelect: React.Dispatch<string>  
 element: () => React.JSX.Element (SVG icon)
