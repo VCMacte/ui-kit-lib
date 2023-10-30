@@ -1,6 +1,6 @@
 # ui-kit-lib
 
-<ButtonBase> props:
+**ButtonBase** props:
 text?: string
 onBtnClick?: () => void
 isActive?: boolean
@@ -11,30 +11,30 @@ buttonType?: 'button' | 'submit' (default: 'button')
 disabled?: boolean (default: false)
 w100?: boolean (default: false)
 
-<CssLoader> props:
+**CssLoader** props:
 isLoading: boolean
 
-<CubeAbsLoader> props:
+**CubeAbsLoader** props:
 isActive: boolean
 
-<DashPlusButton> props:
+**DashPlusButton** props:
 text: string
 onBtnClick?: () => void
 
-<HeaderLogo> no props
+**HeaderLogo** no props
 
-<InputWithLabel> props:
+**InputWithLabel** props:
 labelText: string
 inputType: string
-onInputChange: Dispatch<SetStateAction<string>>
+onInputChange: Dispatch`<SetStateAction<string>>`
 inputValue: string
 
-<NumberInput> props:
+**NumberInput** props:
 count: number
-setCount: Dispatch<SetStateAction<number>>
+setCount: Dispatch`<SetStateAction<number>>`
 
-<SelectFallList> props:
+**SelectFallList** props:
 items: string[]
 selectedItem: string
-onSelect: React.Dispatch<string>
+onSelect: React.Dispatch`<string>`
 element: () => React.JSX.Element (SVG icon)
